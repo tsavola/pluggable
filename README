@@ -1,0 +1,2 @@
+go get github.com/tsavola/pluggable/$NAME
+go build -buildmode=plugin -o $NAME.so github.com/tsavola/pluggable/$NAME
